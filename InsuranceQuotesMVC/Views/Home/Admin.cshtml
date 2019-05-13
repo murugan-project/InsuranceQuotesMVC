@@ -1,0 +1,33 @@
+﻿@using InsuranceQuotesMVC.Models
+@model List<user>
+
+<div class=" mt-5 table-bordered">
+
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">Email Address</th>
+                <th scope="col">Insurance quote</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <th scope="row">1</th>
+                    <td> @Html.ValueFor(modelItem => user.FirstName)</td>
+                    <td> @Html.ValueFor(modelItem => user.LastName)</td>
+                    <td> @Html.ValueFor(modelItem => user.EmailAddress)</td>
+                    <td> @Html.ValueFor(modelItem => user.Quote)</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+
+</div>
+

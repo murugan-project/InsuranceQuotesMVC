@@ -1,0 +1,7 @@
+﻿@using InsuranceQuotesMVC.Models
+@model InsuranceQuotesMVC.Models.user
+
+<h2>@Html.ValueFor(model => model.FirstName)    @Html.ValueFor(model => model.LastName)</h2>
+<h4>Your Quote is:</h4>
+<h4>@Html.ValueFor(model => model.Quote)$/month</h4>
+
