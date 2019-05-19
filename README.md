@@ -5,6 +5,6 @@
 * I gained more experience with razor syntax 
 * I learned that MVC is a great way to keep files orgranized and a great design pattern
 * I gained more experience with SQL Server by creating a database and table to hold users information
-* I learned how to incorporate Entity Framework into my application
+* I learned how to integrate Entity Framework into my application
 * I gained more experience using breakpoints to help test, debug and understand my code
 * I learned how to create a admin page to show customers information and much more
