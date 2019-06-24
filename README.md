@@ -9,4 +9,4 @@
 * I gained more experience using breakpoints to help test, debug and understand my code
 * I learned how to create a admin page to show customers information and much more
 
-<img src="https://github.com/CodingMikey/ContosoUniversity/blob/master/Screenshot.gif" title="Screenshot" alt="Screenshot">
+<img src="https://github.com/CodingMikey/InsuranceQuotesMVC/blob/master/InsuranceApp.gif" title="Screenshot" alt="Screenshot">
